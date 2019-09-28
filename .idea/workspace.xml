@@ -7,44 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="664b6f2f-a155-4919-85fb-59625659f08f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/META-INF/quickstart.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/service/LoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/util/Md5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/quickstart/META-INF/quickstart.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/quickstart/com/web/service/LoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/quickstart/com/web/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/quickstart/com/web/util/Md5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/com/web/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/com/web/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/HomeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/SignInServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/service/entity/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/service/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/com/login/servlet/service/entity/util/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/com/web/util/Md5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/src/images/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-online/images/7.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/web-online.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-online/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/util/Md5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickstart/com/web/util/Md5Util.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/quickstart/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -164,37 +128,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-online/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quickstart/src/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -342,7 +275,7 @@
       <updated>1569591049212</updated>
       <workItem from="1569591054218" duration="7782000" />
       <workItem from="1569600231870" duration="10173000" />
-      <workItem from="1569636223721" duration="5433000" />
+      <workItem from="1569636223721" duration="5849000" />
     </task>
     <task id="LOCAL-00001" summary="java-web-dev的多模块项目初始化，三个模块">
       <created>1569603026248</created>
@@ -351,14 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569603026248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java-web-dev的多模块项目初始化，两个模块">
+      <created>1569641812487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569641812487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23388000" />
+    <option name="totallyTimeSpent" value="23804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -399,7 +339,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java-web-dev的多模块项目初始化，三个模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="java-web-dev的多模块项目初始化，三个模块" />
+    <MESSAGE value="java-web-dev的多模块项目初始化，两个模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="java-web-dev的多模块项目初始化，两个模块" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quickstart/src/yyyyy/uuuuuuuuu/ooooooooooooo.java" />
@@ -521,7 +462,7 @@
     <entry file="file://$PROJECT_DIR$/quickstart/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
