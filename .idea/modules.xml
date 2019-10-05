@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/book-online/book-online.iml" filepath="$PROJECT_DIR$/book-online/book-online.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-web-dev.iml" filepath="$PROJECT_DIR$/java-web-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-online/music-online.iml" filepath="$PROJECT_DIR$/music-online/music-online.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
     </modules>
   </component>
