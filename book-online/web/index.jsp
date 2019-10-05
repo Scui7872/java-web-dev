@@ -17,8 +17,8 @@
         color: rgb(73,73,73);
       }
       #search{
-        height: 80px;
-        background-color: rgb(246,246,241);
+        height: 50px;
+        background-color: rgb(35, 38, 36);
         display: flex;
         align-items: center;
         padding-left: 8%;
@@ -26,19 +26,21 @@
       }
       .search-input{
         flex: 0 0 40%;
-        height: 35px;
+        width: 180px;
+        height: 30px;
         background-color: #fff;
         border: none;
         border-radius: 3px;
-        margin-left: 50px;
+        margin-left: 200px;
       }
       .search-btn{
-        width: 35px;
-        height: 35px;
-        background-color: rgb(155,154,143);
+        width: 70px;
+        height: 50px;
+        background-color: rgb(35, 40, 38);
         display: flex;
         align-items: center;
-        justify-content: center;
+        margin-right: 80px;
+
       }
       .search-btn img{
         width: 50%;
@@ -49,12 +51,12 @@
         margin: 20px 5px 20px 5px;
       }
       .card img{
-        width: 90%;
+        width: 100%;
         height: 90%;
       }
       .card p{
         font-size: 13px;
-        color: #9b9b9b;
+        color: rgb(35, 38, 36);
       }
       .col-4 img{
         margin: 10px 5px 20px 5px;
@@ -79,23 +81,18 @@
     <jsp:include page="top.jsp"/>
   </div>
 
-  <%--搜索栏--%>
-  <div id="search">
-    <h2>读书时刻</h2>
-    <input type="text" placeholder="书名，作者，ISBN" class="search-input">
-    <div class="search-btn">
-      <img src="images/search.png" alt="">
-    </div>
-  </div>
+
 
   <%--主体内容区--%>
   <div class="container">
     <div class="row">
       <%--左侧2/3主体部分--%>
       <div class="col-8">
-        <h3>新书速递</h3>
+        <h3>热门推荐   华语   流行   民谣  电子   更多</h3>
         <hr>
         <div class="row">
+
+
           <%--遍历图书数据集合，将每个图书对象放入页面--%>
           <%
             for (Book book:bookList){
@@ -103,43 +100,53 @@
 
           %>
 
-      </div>
-        <%--引用col-2表示每行显示5本，再追加card细节样式--%>
+
+
         <div class="col-2 card">
           <%--点击每本图书封面图，地址栏跳转为/detail/id,进入图书详情Servlet--%>
           <a href="${pageContext.request.contextPath}/detail/${book.id}">
             <img src="images/${book.cover}" alt="">
           </a>
           <p style="color: rgb(51,119,178)">${book.name}</p>
-          <p>${book.author}</p>
         </div>
         <%
           }
         %>
     </div>
 
-      <div class="col-4">
-        <h3>热门标签</h3>
+
+      <h4>新碟上架</h4>
         <hr>
-        <img src="images/right.png" alt="">
-      </div>
+
+
+
+</div>
+
+        <div class="col-4">
+          <h3>入驻歌手</h3>
+          <hr>
+          <img src="images/right2.jpg" alt="">
+        </div>
     </div>
+
 
     <footer>
       <ul>
-        <li>@2015-2019</li>
-        <li>niit.edu.cn</li>
-        <li>all rights</li>
-        <li>计算机与软件学院</li>
+        <li>服务条款</li>
+        <li>隐私政策</li>
+        <li>儿童隐私政策</li>
+        <li>版权投诉指引</li>
+        <li>意见反馈</li>
 
       </ul>
       <ul>
         <li>联系我们</li>
         <li>帮助中心</li>
         <li>法律声明</li>
-        <li>移动合作</li>
+        <li>举报邮箱：****</li>
       </ul>
     </footer>
   </div>
+
   </body>
 </html>

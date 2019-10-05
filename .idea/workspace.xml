@@ -6,34 +6,86 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664b6f2f-a155-4919-85fb-59625659f08f" name="Default Changelist" comment="java-web-dev的多模块项目，在线书屋的登录/图书详情页面/个人中心">
-      <change afterPath="$PROJECT_DIR$/book-online/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/quickstart_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/quickstart_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_online_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_online_war_exploded2.xml" beforeDir="false" />
+    <list default="true" id="664b6f2f-a155-4919-85fb-59625659f08f" name="Default Changelist" comment="java-web-dev的多模块项目，LR-online的登录/详情页面/个人中心">
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/music9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/right2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/META-INF/book-online.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/listener/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/servlet/BookDetailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/servlet/IndexServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/servlet/LoginPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/servlet/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/bo/servlet/UserPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/classes/com/web/util/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/book_details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/music9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/right2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/user1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/META-INF/book-online.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/listener/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/servlet/BookDetailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/servlet/IndexServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/servlet/LoginPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/servlet/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/bo/servlet/UserPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/book-online/com/web/util/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/quickstart/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/quickstart/images/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/book-online.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/book-online.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/book_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/book_details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/images/book1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/images/book2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/images/book3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/images/right.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/book-online/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-web-dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-web-dev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/top.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_online_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/META-INF/quickstart.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/web/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/quickstart/META-INF/quickstart.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-online/images/7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/quickstart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/quickstart.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +98,74 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-online/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-online/web/user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3667">
+              <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-online/web/top.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-online/web/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-online/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2147">
+              <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-online/web/book_details.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1805">
+              <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +203,6 @@
         <option value="$PROJECT_DIR$/book-online/src/com/bo/entity/User.java" />
         <option value="$PROJECT_DIR$/book-online/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/book-online/web/css/style.css.html" />
-        <option value="$PROJECT_DIR$/book-online/web/book_details.jsp" />
         <option value="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginPageServlet.java" />
         <option value="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/book-online/src/com/bo/servlet/LogoutServlet.java" />
@@ -109,12 +227,13 @@
         <option value="$PROJECT_DIR$/book-online/src/com/bo/servlet/ComicServlet.java" />
         <option value="$PROJECT_DIR$/book-online/web/comic.jsp" />
         <option value="$PROJECT_DIR$/book-online/web/comic_detail.jsp" />
-        <option value="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" />
-        <option value="$PROJECT_DIR$/book-online/web/index.jsp" />
-        <option value="$PROJECT_DIR$/book-online/web/top.jsp" />
         <option value="$PROJECT_DIR$/book-online/web/user.jsp" />
+        <option value="$PROJECT_DIR$/book-online/web/top.jsp" />
         <option value="$PROJECT_DIR$/book-online/web/login.html" />
         <option value="$PROJECT_DIR$/book-online/web/css/style.css" />
+        <option value="$PROJECT_DIR$/book-online/web/book_details.jsp" />
+        <option value="$PROJECT_DIR$/book-online/web/index.jsp" />
+        <option value="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" />
       </list>
     </option>
   </component>
@@ -140,7 +259,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="980" />
+    <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -152,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,13 +300,81 @@
               <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
               <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-web-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-web-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="book-online" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,6 +398,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\IdeaProjects\java-web-dev\book-online\web\images" />
+      <recent name="C:\Users\ASUS\IdeaProjects\java-web-dev\out\artifacts\book_online_war_exploded\images" />
       <recent name="C:\Users\ASUS\IdeaProjects\java-web-dev\quickstart\src\images" />
       <recent name="C:\Users\ASUS\IdeaProjects\java-web-dev\web-online\src\images" />
     </key>
@@ -360,7 +547,10 @@
       <workItem from="1570208074773" duration="4231000" />
       <workItem from="1570247235883" duration="519000" />
       <workItem from="1570249164162" duration="183000" />
-      <workItem from="1570249383692" duration="538000" />
+      <workItem from="1570249383692" duration="1325000" />
+      <workItem from="1570252908626" duration="13516000" />
+      <workItem from="1570271598228" duration="1948000" />
+      <workItem from="1570275584117" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="java-web-dev的多模块项目初始化，三个模块">
       <created>1569603026248</created>
@@ -383,11 +573,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569642369315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java-web-dev的多模块项目，在线书屋的登录/图书详情页面/个人中心">
+      <created>1570249947059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570249947059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java-web-dev的多模块项目，在线书屋的登录/图书详情页面/个人中心">
+      <created>1570250518724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570250518724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117140000" />
+    <option name="totallyTimeSpent" value="133698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +605,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32171583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -411,16 +615,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63136727" weight="0.5278592" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63136727" weight="0.43108505" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42961878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49798927" weight="0.32844576" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49262735" weight="0.42961878" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4966488" weight="0.45307916" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49262735" weight="0.11566618" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4966488" visible="true" weight="0.35337242" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.28445747" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49798927" visible="true" weight="0.28445747" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49798927" weight="0.28445747" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49865952" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49932975" weight="0.32796487" />
@@ -479,35 +683,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="java-web-dev的多模块项目，在线书屋的登录/图书详情页面/个人中心" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quickstart/src/images/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/css.css" />
-    <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/utils/Md5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/css/style.css.html" />
-    <entry file="file://$PROJECT_DIR$/book-online/book-online.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart/src/com/web/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -515,12 +690,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/images/book2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/images/book3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/web/images/book2.jpg" />
+    <entry file="file://$PROJECT_DIR$/book-online/web/images/book3.jpg" />
     <entry file="file://$PROJECT_DIR$/book-online/web/images/user1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -530,9 +701,7 @@
     <entry file="file://$PROJECT_DIR$/book-online/web/images/search.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/images/book1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/web/images/book1.jpg" />
     <entry file="file://$PROJECT_DIR$/book-online/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -673,20 +842,6 @@
     <entry file="file://$PROJECT_DIR$/book-online/web/comic.jsp" />
     <entry file="file://$PROJECT_DIR$/book-online/web/comic_detail.jsp" />
     <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/entity/Comic.java" />
-    <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="102" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/servlet/IndexServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -697,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3667">
-          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/servlet/UserPageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -711,13 +859,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -741,28 +882,61 @@
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/quickstart_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/web/images/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/book-online/web/images/bg2.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/bg2.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/bg3.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/book_online_war_exploded/images/right.png" />
+    <entry file="file://$PROJECT_DIR$/book-online/web/images/bg3.jpg" />
     <entry file="file://$PROJECT_DIR$/book-online/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-online/web/book_details.jsp">
+    <entry file="file://$PROJECT_DIR$/book-online/web/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        <state relative-caret-position="3667">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/web/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book-online/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="513">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/web/book_details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#div#4;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#4;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#4;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
